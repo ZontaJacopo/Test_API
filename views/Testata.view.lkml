@@ -47,7 +47,7 @@ view: testata {
 
   }
 
-  measure: Scontrino_2 {
+  measure: Fatturato {
     type: sum
     sql: ${Prezzo};;
     tags: ["Sales"]
