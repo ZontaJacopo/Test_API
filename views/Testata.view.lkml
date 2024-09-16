@@ -38,7 +38,7 @@ view: testata {
   }
 
   dimension: Prezzo {
-    type: string
+    type: number
     sql: ${TABLE}.valore_scontrino ;;
   }
 
@@ -50,6 +50,7 @@ view: testata {
   measure: Scontrino_2 {
     type: sum
     sql: ${Prezzo};;
+    tags: ["Sales"]
   }
 
 
