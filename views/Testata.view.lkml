@@ -50,7 +50,6 @@ view: testata {
   measure: Scontrino_2 {
     type: sum
     sql: ${Prezzo};;
-    #filters: [Store = ]
   }
 
 
