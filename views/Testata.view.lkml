@@ -51,6 +51,7 @@ view: testata {
     type: sum
     sql: ${Prezzo};;
     tags: ["Sales"]
+    value_format: "$#.00;($#.00)"
   }
 
 
